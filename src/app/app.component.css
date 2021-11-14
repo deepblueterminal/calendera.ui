@@ -1,4 +1,31 @@
-div {
-    font-size: 30px;
+* {
+    font-family: 'Kanit';
+}
+
+.title {
+    background-image: url(https://images.pexels.com/photos/2860705/pexels-photo-2860705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    font-size: 45vw;
+    line-height: 32vw;
     text-align: center;
+    font-weight: 900;
+    mix-blend-mode: difference;
+    z-index: 99;
+    overflow-wrap: anywhere;
+}
+
+.black {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.black {
+    left: 0;
+    right: 0;
+    background-color: black;
 }
