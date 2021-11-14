@@ -13,7 +13,7 @@
     font-weight: 900;
     mix-blend-mode: difference;
     z-index: 99;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
 }
 
 .black {
